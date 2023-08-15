@@ -1,0 +1,9 @@
+*
+!*.*
+!*/
+!*.cpp
+!*.h
+!makefile
+!Makefile
+/source.cpp
+/source.h
