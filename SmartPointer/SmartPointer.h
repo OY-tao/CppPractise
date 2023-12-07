@@ -1,9 +1,3 @@
-/*
- * @Author       : mark
- * @Date         : 2020-05-23
- * @copyleft GPL 2.0
- */ 
-
 template <typename T>
 class SmartPointer {
 public:
@@ -67,7 +61,7 @@ public:
     }
     int decRefCount() {
         count_--;
-        return count;
+        return count_;
     }
     int getRefCount() {
         return count_;
